@@ -32,23 +32,23 @@ const About = () => {
             <div className="order-2 md:order-1">
               <div className="flex items-center mb-6">
                 <Sparkles className="w-8 h-8 text-primary mr-3" />
-                <h2 className="text-3xl md:text-4xl font-display font-bold">Temple History</h2>
+                <h2 className="text-3xl md:text-4xl font-display font-bold">Temple Story</h2>
               </div>
               <div className="space-y-4 text-muted-foreground">
                 <p className="leading-relaxed">
-                  The Vitthal-Rakhumai Temple in ABC Village has stood as a sacred symbol of faith for over three centuries. 
-                  Established in the 18th century, the temple was built by local devotees who envisioned a place where the 
-                  divine presence of Lord Vitthal and Goddess Rakhumai could bless the community.
+                  “The Vithal–Rakhumai Temple in Gavade Ambere Village was founded over 50 years ago by devoted 
+                  villagers. The temple has been the spiritual heart of our community, guiding generations 
+                  toward peace and devotion.”
                 </p>
+                <div className="flex items-center mb-6">
+                
+                <h2 className="text-3xl md:text-2xl font-display font-bold">Our Vision</h2>
+              </div>
                 <p className="leading-relaxed">
-                  Through generations, the temple has witnessed countless devotees finding solace, peace, and spiritual 
-                  enlightenment within its sacred walls. The temple has become an integral part of our village's cultural 
-                  and spiritual identity.
+                  We are constructing a new temple to serve more devotees and preserve our cultural and 
+                  spiritual heritage.”
                 </p>
-                <p className="leading-relaxed">
-                  Today, the temple continues to serve as a beacon of hope and devotion, hosting daily prayers, weekly 
-                  bhajans, and grand festivals that bring the entire community together in celebration of our shared faith.
-                </p>
+                
               </div>
             </div>
             <div className="order-1 md:order-2">
@@ -120,19 +120,9 @@ const About = () => {
 
           <Card className="p-8 bg-card/80 backdrop-blur-sm">
             <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-              ABC Village is a thriving community in Maharashtra, India, known for its rich cultural heritage and deep 
-              spiritual roots. The village has been home to the Vitthal-Rakhumai Temple for centuries, making it a 
-              significant pilgrimage destination for devotees from across the region.
-            </p>
-            <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-              Our village is characterized by its warm hospitality, traditional values, and strong sense of community. 
-              The temple serves as the spiritual heart of ABC Village, bringing together people of all backgrounds in 
-              shared devotion and celebration.
-            </p>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              With excellent connectivity to nearby cities and modern amenities, ABC Village beautifully balances 
-              tradition with progress. The upcoming temple project represents our community's commitment to preserving 
-              our heritage while embracing the future.
+              “ABC Village is a serene and vibrant community located in the heart of Maharashtra. Known 
+              for its unity and culture, the village celebrates Kartiki Ekadashi with great devotion every 
+              year.”
             </p>
           </Card>
         </div>

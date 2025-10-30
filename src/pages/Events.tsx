@@ -33,64 +33,26 @@ const Events = () => {
 
   const upcomingEvents = [
     {
-      title: "Kartiki Ekadashi Utsav 2025",
-      date: "November 02, 2025",
-      time: "5:00 AM - 10:00 PM",
-      location: "Vitthal-Rakhumai Temple, ABC Village",
-      description: "Grand celebration with Maha Aarti, bhajan sessions, and special prasad distribution. Join us for this most auspicious day.",
-      attendees: "5000+",
-      status: "upcoming",
+      title: "Shri Vitthal Rakhumai Cricket Cup",
+        date: "November 1 - 3, 2025",
+        time: "Starts 3:30 PM (Nov 1st)",
+        location: "Shri Vitthal Rakhumai Kridaangan, Amberkarwadi",
+        description: "Grand Day/Night Underarm Box Cricket tournament.",
+        attendees: "Teams participating: 20+",
+        status: "recurring",
     },
     {
-      title: "Weekly Bhajan Sandhya",
-      date: "Every Saturday",
-      time: "6:00 PM - 8:00 PM",
-      location: "Temple Prayer Hall",
-      description: "Join our community for evening devotional songs and prayers. Open to all devotees.",
-      attendees: "100+",
-      status: "recurring",
-    },
-    {
-      title: "Janmashtami Celebration",
-      date: "August 26, 2025",
-      time: "All Day",
-      location: "Temple Complex",
-      description: "Celebrate the birth of Lord Krishna with special pujas, cultural programs, and midnight Maha Aarti.",
-      attendees: "3000+",
-      status: "upcoming",
-    },
-    {
-      title: "Ram Navami Festival",
-      date: "April 6, 2025",
-      time: "6:00 AM - 9:00 PM",
-      location: "Vitthal-Rakhumai Temple",
-      description: "Special prayers and rituals celebrating the birth of Lord Rama with kirtans and prasad.",
-      attendees: "2000+",
-      status: "upcoming",
+        title: "Grand Dhol Vadan Competition",
+        date: "November 3, 2025",
+        time: "Starting 10:30 PM",
+        location: "Shri Vitthal Rakhumai Kridaangan, Amberkarwadi",
+        description: "An exciting competition for Dhol and Tasha players.",
+        attendees: "10+ Dhol Tasha Groups",
+        status: "upcoming",
     },
   ];
 
-  const pastEvents = [
-    {
-      title: "Diwali Celebration 2024",
-      date: "November 1, 2024",
-      description: "A spectacular celebration with diyas, rangoli, and special evening aarti.",
-      attendees: "4000+",
-    },
-    {
-      title: "Ganesh Chaturthi 2024",
-      date: "September 7, 2024",
-      description: "10-day festival celebrating Lord Ganesha with daily aartis and cultural programs.",
-      attendees: "3500+",
-    },
-    {
-      title: "Holi Celebration 2024",
-      date: "March 25, 2024",
-      description: "Colorful celebration with community gathering, bhajans, and traditional sweets.",
-      attendees: "2500+",
-    },
-  ];
-
+  
   return (
     <div className="min-h-screen pt-20">
       {/* Hero Section */}
@@ -212,36 +174,7 @@ const Events = () => {
         </div>
       </section>
 
-      {/* Past Events */}
-      <section ref={ref2} className="py-16 px-4 bg-gradient-to-br from-secondary/5 to-primary/5">
-        <div className={`container mx-auto max-w-6xl ${inView2 ? "animate-slide-up" : "opacity-0"}`}>
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-display font-bold mb-4">Past Events</h2>
-            <div className="w-32 h-1 bg-gradient-to-r from-primary to-accent mx-auto mb-6" />
-            <p className="text-lg text-muted-foreground">
-              Relive the beautiful moments from our previous celebrations
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-6">
-            {pastEvents.map((event, index) => (
-              <Card
-                key={index}
-                className="p-6 hover:shadow-lg transition-all duration-300 cursor-glow"
-              >
-                <Calendar className="w-10 h-10 text-primary mb-4" />
-                <h3 className="text-lg font-display font-semibold mb-2">{event.title}</h3>
-                <p className="text-sm text-muted-foreground mb-3">{event.date}</p>
-                <p className="text-sm text-muted-foreground mb-3">{event.description}</p>
-                <div className="flex items-center text-sm text-primary">
-                  <Users className="w-4 h-4 mr-2" />
-                  <span>{event.attendees} Attendees</span>
-                </div>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
+      
     </div>
   );
 };

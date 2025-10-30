@@ -93,11 +93,11 @@ const Contact = () => {
               <MapPin className="w-10 h-10 mx-auto text-primary mb-3" />
               <h3 className="font-display font-semibold mb-2">Address</h3>
               <p className="text-sm text-muted-foreground">
-                Vithhal Rakhumai Mandir, 
+                Vithal–Rakhumai Temple,
                 <br />
-                Gavade Ambere Village,Amberkarwadi
+                Ambere, Tal. Ratnagiri,
                 <br />
-                R86Q+65V, Ratnagiri, Maharashtra 415626, India
+                Dist. Ratnagiri, Maharashtra, India
               </p>
             </Card>
 
@@ -105,11 +105,7 @@ const Contact = () => {
               <Phone className="w-10 h-10 mx-auto text-primary mb-3" />
               <h3 className="font-display font-semibold mb-2">Phone</h3>
               <p className="text-sm text-muted-foreground">
-                +91 93597 70332
-                <br />
-                +91 89565 03673
-                <br />
-                +91 72083 13146
+                +91 9876543210 
               </p>
             </Card>
 
@@ -117,9 +113,7 @@ const Contact = () => {
               <Mail className="w-10 h-10 mx-auto text-primary mb-3" />
               <h3 className="font-display font-semibold mb-2">Email</h3>
               <p className="text-sm text-muted-foreground">
-                info@vitthaltemple.org
-                <br />
-                trust@vitthaltemple.org
+                templetrust@abc.com 
               </p>
             </Card>
 
@@ -169,18 +163,7 @@ const Contact = () => {
                     placeholder="your@email.com"
                     required
                   />
-                </div>
-
-                <div>
-                  <Label htmlFor="subject">Subject</Label>
-                  <Input
-                    id="subject"
-                    name="subject"
-                    value={formData.subject}
-                    onChange={handleChange}
-                    placeholder="What is this regarding?"
-                  />
-                </div>
+                </div> 
 
                 <div>
                   <Label htmlFor="message">Your Message *</Label>

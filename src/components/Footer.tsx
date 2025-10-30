@@ -26,15 +26,15 @@ const Footer = () => {
             <div className="space-y-2">
               <div className="flex items-center space-x-2">
                 <MapPin className="w-4 h-4 text-primary" />
-                <span className="text-sm">Vithhal Rakhumai Mandir, Amberkarwadi, Gavade Ambere, Ratnagiri</span>
+                <span className="text-sm">Vithal–Rakhumai Temple, Gavade Ambere, Taluka Ratnagiri, District Ratnagiri, Maharashtra, India</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4 text-primary" />
-                <span className="text-sm">+91 93597 70332</span>
+                <span className="text-sm">+91 9876543210</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4 text-primary" />
-                <span className="text-sm">info@vitthaltemple.org</span>
+                <span className="text-sm">templetrust@abc.com</span>
               </div>
             </div>
           </div>
@@ -87,23 +87,7 @@ const Footer = () => {
                 className="w-10 h-10 rounded-full bg-primary/20 hover:bg-primary flex items-center justify-center transition-all duration-300 cursor-glow"
               >
                 <Instagram className="w-5 h-5" />
-              </a>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-primary/20 hover:bg-primary flex items-center justify-center transition-all duration-300 cursor-glow"
-              >
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a
-                href="https://youtube.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-primary/20 hover:bg-primary flex items-center justify-center transition-all duration-300 cursor-glow"
-              >
-                <Youtube className="w-5 h-5" />
-              </a>
+              </a> 
             </div>
           </div>
         </div>
